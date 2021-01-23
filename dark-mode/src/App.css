@@ -1,0 +1,51 @@
+.App {
+  background: #e8edef;
+  padding: 5rem;
+}
+
+.header {
+  font-size: 24px;
+  display: flex;
+  color: #303739;
+}
+
+.header svg {
+  width: 2rem;
+}
+
+.info {
+  font-size: 22px;
+  display: flex;
+  color: #303739;
+}
+
+.info .first,
+.info .second,
+.info .third {
+  margin-right: 2rem;
+  padding: 1rem;
+}
+
+.info .first {
+  border: 1px solid black;
+}
+
+.info .second {
+  border: 1px solid white;
+}
+
+.info .third {
+  border: 1px solid #475053;
+}
+
+.buttons {
+  padding: 3rem;
+  text-align: center;
+}
+
+.buttons button {
+  padding: 1rem;
+  font-size: 28px;
+  background: #d51939;
+  border: 1px solid white;
+}

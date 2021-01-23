@@ -1,0 +1,10 @@
+{
+  "notes": [
+    {
+      "id": 1,
+      "title": "My first Note",
+      "content": "I am writing a note now",
+      "createdAt": "1611361890854"
+    }
+  ]
+}
