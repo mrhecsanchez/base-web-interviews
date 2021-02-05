@@ -3,10 +3,20 @@
   padding: 5rem;
 }
 
+.App.dark {
+  background: #141625;
+}
+
 .header {
   font-size: 24px;
   display: flex;
   color: #303739;
+}
+
+.dark,
+.dark .header, 
+.dark .info {
+  color: #b2b5bd;
 }
 
 .header svg {

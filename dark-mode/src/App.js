@@ -1,12 +1,13 @@
+import { useState } from 'react';
 import Logo from './logo';
 import './App.css';
 
 function App() {
-  // TODO: Implement
-  const toggle = () => console.log('Implement me!');
+  const [darkTheme, setDarkTheme] = useState(false)
+  const toggle = () => setDarkTheme(!darkTheme);
 
   return (
-    <div className="App">
+    <div className={`App ${darkTheme ? 'dark' : ''}`}>
       <div className="header">
         <Logo />
         <h1>A very magical Lorem Ipsum</h1>
