@@ -36,3 +36,181 @@
     transform: rotate(360deg);
   }
 }
+
+nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: flex-end;
+}
+
+nav ul li a{
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+
+
+.container {
+  max-width: 900px;
+  margin: auto;
+}
+.table {
+  margin-top: 50px;
+}
+
+.row {
+  display: flex;
+  padding-bottom: 1em;
+  padding-top: 1em;
+  border-bottom: 1px solid #ebebeb;
+}
+
+.row:nth-child(even) {
+  background: #f8f8f8;
+}
+
+.row:hover {
+  background: #ebebeb;
+  cursor: pointer;
+}
+
+.col {
+  padding: 0 10px;
+}
+
+.col:nth-child(1) {
+  min-width: 100px;
+  text-align: left;
+  box-sizing: border-box;
+}
+
+.col:nth-child(2) {
+  min-width: 180px;
+  text-align: left;
+  box-sizing: border-box;
+}
+
+.col:nth-child(3) {
+  text-align: left;
+  box-sizing: border-box;
+}
+
+.form {
+  width: 500px;
+  margin: auto;
+}
+
+h1 {
+  margin-bottom: 50px;
+  text-align: left;
+  font-size: 20px;
+}
+
+.inputContainer {
+  text-align: left;
+}
+
+.inputContainer label{
+  display: block;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+.inputContainer input{
+  width: 100%;
+  height: 50px;
+  background: #ebebeb;
+  border: none;
+  padding: 10px;
+  font-size: 18px;
+  box-sizing: border-box;
+  margin-bottom: 25px;
+}
+
+.inputContainer textarea {
+  width: 100%;
+  height: 150px;
+  background: #ebebeb;
+  border: none;
+  padding: 10px;
+  font-size: 18px;
+  box-sizing: border-box;
+  margin-bottom: 25px;
+}
+
+button {
+  width: 100%;
+  height: 60px;
+  border: none;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+  cursor: pointer;
+  background: orange;
+  transition: background-color .3s ease;
+}
+
+button:hover {
+  background-color: #ff8400;
+}
+
+.delete {
+  color: red;
+  font-size: 18x;
+  text-transform: uppercase;
+  margin: 20px 0;
+  padding: 20px;
+  cursor: pointer;
+  display: block;
+}
+
+.delete:hover {
+  text-decoration: underline;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #000000c9;
+}
+
+.modalContent {
+  width: 500px;
+  height: 300px;
+  background: #ffffff;
+  margin: auto;
+  border-radius: 10px;
+  box-sizing: border-box;
+  padding: 30px;
+}
+
+.modalContent p {
+  font-size: 25px;
+  font-weight: 500;
+  width: 300px;
+  margin: 25px auto 0;
+  line-height: 1.4;
+}
+
+.buttons {
+  position: relative; 
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+button.cancel {
+  border: 3px solid #ebebeb;
+  background: #ffffff;
+  width: 40%;
+}
+
+button.confirm {
+  width: 40%;
+}
